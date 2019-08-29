@@ -3,7 +3,7 @@ describe "Dog" do
   # https://www.relishapp.com/rspec/rspec-core/v/2-6/docs/helper-methods/let-and-let
 
   it 'instantiates a new dog' do
-    expect(1).to be_a(1)
+    expect(1).to eq(1)
   end
 
   it 'has a name' do
