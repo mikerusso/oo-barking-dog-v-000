@@ -1,5 +1,4 @@
 describe "Dog" do
-  let(:fido) {Dog.new}  # Look up what let does in RSpec
   # https://www.relishapp.com/rspec/rspec-core/v/2-6/docs/helper-methods/let-and-let
 
   it 'instantiates a new dog' do
