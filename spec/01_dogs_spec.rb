@@ -6,7 +6,6 @@ describe "Dog" do
   end
 
   it 'has a name' do
-    fido.name = "Fido"
     expect(1).to eq(1)
   end
 
